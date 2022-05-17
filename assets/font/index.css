@@ -1,0 +1,36 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4855942, 2022-05-16T23:06:21-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: PalmCanyonDrive-Regular by RetroSupply Co.
+ * URL: https://www.myfonts.com/fonts/retro-supplyco/palm-canyon-drive/regular/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Amy Hood / Hoodzpah Design Co. All rights reserved.
+ * 
+ * Webfont: JungleGiantPrint by Mini Press
+ * URL: https://www.myfonts.com/fonts/mini-press/jungle-giant/print/
+ * Copyright: null
+ * 
+ * 
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4a1886");
+
+@font-face {
+    font-family: "PalmCanyonDrive-Regular";
+    src: url('PalmCanyonDriveRegular/font.woff2') format('woff2'), url('PalmCanyonDriveRegular/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "JungleGiantPrint";
+    src: url('JungleGiantPrint/font.woff2') format('woff2'), url('JungleGiantPrint/font.woff') format('woff');
+}

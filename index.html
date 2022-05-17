@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>River Valley Church</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Github Pages Redirect -->
+    <script>
+        (function () {
+            var redirect = sessionStorage.redirect;
+            delete sessionStorage.redirect;
+            if (redirect && redirect != location.href) { history.replaceState(null, null, redirect); }
+        })();
+    </script>
+
+    <!-- Needed to inject a node buffer equivalent into the browser. -->
+    <script type="text/javascript">window.global = window;</script>
+<style>@charset "UTF-8";@import"https://use.typekit.net/ykk4sfk.css";@import"//hello.myfonts.net/count/4a1886";html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}strong{font-weight:bolder}img{border-style:none}html{box-sizing:border-box;font-size:100%}*,*:before,*:after{box-sizing:inherit}body{margin:0;padding:0;background:#FFFFFF;font-family:neue-haas-grotesk-text,Helvetica Neue,Helvetica,sans-serif;font-weight:400;line-height:1.5;color:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{display:inline-block;vertical-align:middle;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}div,td{margin:0;padding:0}strong{font-weight:700;line-height:inherit}a{line-height:inherit;color:#0c4335;text-decoration:none;cursor:pointer}a:hover,a:focus{color:#0a3a2e}@media print{*{background:transparent!important;color:#000!important;-webkit-print-color-adjust:economy;color-adjust:economy;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}tr,img{page-break-inside:avoid}img{max-width:100%!important}@page{margin:.5cm}}</style><link rel="stylesheet" href="styles.0a3f3f937b23ae33.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.0a3f3f937b23ae33.css"></noscript></head>
+
+<body>
+    <div id="not-supported" style="display: none; margin: 3rem auto 0rem auto; text-align: center;">
+        <table style="margin: 0 auto;">
+            <tbody><tr>
+                <td><img width="48" src="assets/images/hopestream-logo.png"></td>
+                <td style="font-family: vyasa, sans-serif; font-size: 36px; font-weight: 700; color: #000000;">Cafe Awake</td>
+            </tr>
+        </tbody></table>
+        <div style="text-align: left; background: #fafafa; border-radius: 3px; padding: 32px 40px; margin: 3rem auto 1rem auto; width: 350px;">
+            <div style="text-align: center; font-size: 18px;"><strong>Please Change Browsers</strong></div><br>
+            Please note that this site is supported only in the following browsers:<br>
+            <a href="https://www.google.com/chrome/">Chrome</a>, <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>, <a href="https://support.apple.com/downloads/safari">Safari</a>, <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft Edge</a>.
+        </div>
+    </div>
+
+    <script>
+        // https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser/9851769
+        function _IsInternetExplorer() {
+            return /*@cc_on!@*/false || !!document.documentMode;
+        }
+
+        // https://gist.github.com/davidhund/b995353fdf9ce387b8a2 
+        function _IsFlexboxSupported() {
+            var e = document.createElement('b');
+            try {
+                e.style.display = '-webkit-flex';
+                e.style.display = 'flex';
+                return !!(e.style.display === 'flex' || e.style.display === '-webkit-flex');
+            } catch (error) { }
+            return false;
+        };
+
+        if (_IsInternetExplorer() || !_IsFlexboxSupported()) {
+            document.getElementById("not-supported").style.display = 'block';
+        } else {
+            document.body.innerHTML = '<app-root></app-root>';
+        }
+    </script>
+<script src="runtime.a67bdd35a80ea401.js" type="module"></script><script src="polyfills.352273d4ea98e999.js" type="module"></script><script src="main.9c236964fb971fdd.js" type="module"></script>
+
+</body></html>
